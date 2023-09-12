@@ -152,8 +152,8 @@ function Swipper({city}){
             <div className="item" key={i.img}>
               <img src={i.img} alt="img" />
               <div>
-                <h4>{i.main_discrption}</h4>
-                <h4>{i.price}</h4>
+                <h3>{i.main_discrption}</h3>
+                <h3>{i.price}</h3>
               </div>
               <div>
                 <p>{i.secondery_discrption}</p>
