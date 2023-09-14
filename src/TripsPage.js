@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import {motion} from "framer-motion";
 
-const cities = ["maldives" , "bali" , "thailand"] ; 
+const cities = ["Maldives" , "Bali" , "Thailand"] ; 
 
 const trips = {
-  maldives:[
+  Maldives:[
       {
         img:"img/maldives1.jpg",
         price : "$1500",
@@ -41,7 +41,7 @@ const trips = {
         detail : "https://visitmaldives.com/en"
       }
     ],
-    bali:[
+    Bali:[
       {
         img:"img/bali1.jpg",
         price : "$1500",
@@ -78,7 +78,7 @@ const trips = {
         detail : "https://visitmaldives.com/en"
       }
     ],
-    thailand:[
+    Thailand:[
       {
         img:"img/thailand1.jpg",
         price : "$1500",
