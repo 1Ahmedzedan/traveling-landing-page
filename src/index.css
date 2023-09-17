@@ -322,11 +322,9 @@ header .buttons button:hover{
   width: 400px;
   height: 400px;
   cursor: pointer;
+  pointer-events:none;
 } 
 
-.item img:hover{
-  opacity:0.7 ; 
-}
 
 .item div{
   display: flex;
